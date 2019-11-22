@@ -1,8 +1,13 @@
 1. Newton Second Law
+procedure newtonSecondLaw
 
+input m
+      a
+output x
 
+CALCULATE m*a
 
-
+DISPLAY x
 
 
 2.Tahun Kabisat
@@ -22,6 +27,13 @@ else if tahun mod 4 = 400
 else 'Bukan tahun kabisat'
 
 3. Laundry Day
+procedure laundyDayFoxie
+
+input pakaian
+
+if pakaian = 20
+	then MesinCuciDinyakakan
+else 'Pakaian harus 20'
 
 4. Periksa Kuku
 
