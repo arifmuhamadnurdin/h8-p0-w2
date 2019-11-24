@@ -1,6 +1,12 @@
 function konversiMenit(menit) {
   // you can only write your code here!
-  
+  var detik = menit%60;
+  var minutes = (menit - detik)/60;
+  if (String(detik).length === 1){
+     return minutes+':'+'0'+detik;
+  } else {
+  return minutes+':'+detik;
+  }
 }
 
 // TEST CASES

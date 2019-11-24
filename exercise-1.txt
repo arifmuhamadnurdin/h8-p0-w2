@@ -31,7 +31,7 @@ procedure laundyDayFoxie
 
 input pakaian
 
-if pakaian = 20
+if pakaian == 20
 	then MesinCuciDinyakakan
 else 'Pakaian harus 20'
 
@@ -40,7 +40,7 @@ else 'Pakaian harus 20'
 procedure periksaKuku
 input kuku
 
-if kuku = panjang
+if kuku == panjang
 	then siswa dihukum
 else
 	siswa dipuji

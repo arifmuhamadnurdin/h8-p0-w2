@@ -1,6 +1,20 @@
 function xo(str) {
   // you can only write your code here!
-  if()
+  var karakterX=0;
+  var karakterO=0;
+  for (let x = 0; x <str.length; x++){
+    if(str[x] === 'x'){
+      karakterX ++;
+    } else if (str[x] === 'o'){
+      karakterO ++;
+    }
+  }
+  if (karakterX === karakterO){
+    return true;
+    } else {
+      return false;
+    }
+
 }
 
 // TEST CASES

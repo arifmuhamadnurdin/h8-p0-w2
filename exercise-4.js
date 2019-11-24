@@ -1,6 +1,6 @@
-var tanggal = 25
-var bulan = 5
-var tahun = 1994
+var tanggal = 17
+var bulan = 8
+var tahun = 1945
 
 switch (bulan) {
     case 1:
