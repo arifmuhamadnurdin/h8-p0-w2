@@ -51,6 +51,8 @@ switch (bulan) {
     bulan == 12
     console.log(tanggal + ' Desember ' + tahun)
     break
+    default :
+    console.log('Data input salah/ kurang tepat')
 }
 
 
