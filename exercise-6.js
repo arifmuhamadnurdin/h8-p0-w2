@@ -60,11 +60,14 @@ for (let i = 1; i < 100; i++){
 }
 
 console.log('Kelipatan 6')
-for (let i = 1; i < 96; i++){
-  console.log(i+=5, 'kelipatan 6')
+for (let i = 1; i < 100; i++){
+  if(i % 6 == 0){
+    console.log(i+=6, 'kelipatan 6')
+  }
 }
 
 console.log('Kelipatan 10')
 for (let i = 1; i < 100; i++){
+  
   console.log( i+=9, 'kelipatan 10')
 }
