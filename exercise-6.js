@@ -55,19 +55,26 @@ for (let i = 2; i <= 100; i++){
 
 //3.3
 console.log('Kelipatan 3')
-for (let i = 1; i < 100; i++){
-  console.log(i+=2 , 'kelipatan 3')
+for(i=1;i<=100;i++){
+  if(i%3===0){
+      console.log(i +' kelipatan 3')
+  }
+  i+=1;
 }
 
 console.log('Kelipatan 6')
-for (let i = 1; i < 100; i++){
-  if(i % 6 == 0){
-    console.log(i+=6, 'kelipatan 6')
+for(i=1;i<=100;i++){
+  if(i%6===0){
+      console.log(i +' kelipatan 6')
   }
+  i+=4;
 }
 
+
 console.log('Kelipatan 10')
-for (let i = 1; i < 100; i++){
-  
-  console.log( i+=9, 'kelipatan 10')
+for(i=1;i<=100;i++){
+  if(i%10===0){
+      console.log(i +' kelipatan 10')
+  }
+  i+=8;
 }
